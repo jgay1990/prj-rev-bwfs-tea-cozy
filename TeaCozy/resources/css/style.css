@@ -1,0 +1,143 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+div {
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: seashell;
+  opacity: 0.9;
+}
+
+nav span {
+  margin-right: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 69px;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.statement {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tea-heading {
+  text-align: center;
+  align-items: center;
+}
+
+.teas {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+  margin: 20px 10px;
+}
+
+
+.image-content h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.spots {
+  display: flex;
+  margin-top: 15px;
+  opacity: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.copyright {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
